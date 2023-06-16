@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/iTechAlexDeAngelis/commitizen-test#readme",
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^21.0.5"
