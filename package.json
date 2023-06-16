@@ -1,10 +1,11 @@
 {
   "name": "commitizen-test",
   "version": "1.0.0",
-  "description": "A repo for testing out commitizen",
+  "description": "A repo for testing out commitizen!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/iTechAlexDeAngelis/commitizen-test/issues"
   },
-  "homepage": "https://github.com/iTechAlexDeAngelis/commitizen-test#readme"
+  "homepage": "https://github.com/iTechAlexDeAngelis/commitizen-test#readme",
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
