@@ -28,9 +28,6 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "release": {
     "branches": ["main"]
   }
